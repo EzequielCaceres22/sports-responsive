@@ -51,6 +51,7 @@ body {
 	.form-control {
 		outline: none;
 		border: 1px solid black;
+		margin: 10px;
 	}
 
 	.fa-magnifying-glass {
@@ -76,12 +77,29 @@ body {
 		background-color: #21b4c7;
 		text-align: center;
 		margin-bottom: 10px;
-		margin-top: 10px;
 		font-size: 14px;
 		position: relative;
 		bottom: -17px;
 	}
 
+	.mobile-fb{
+		color: rgb(29, 29, 247);
+		padding: 10px;
+		font-size: 19px;
+	}
+
+	.mobile-ig{
+		color: rgb(226, 77, 169);
+		padding: 10px;
+		font-size: 19px;
+	}
+
+	.mobile-tw{
+		color: aqua;
+		text-shadow: 1px 2px black;
+		padding: 10px;
+		font-size: 19px;
+	}
 	/* Index Mobile Styles */
 
 	.titulo-pag {
@@ -96,6 +114,7 @@ body {
 	.card {
 		margin-top: 40px;
 		border-radius: 5px;
+		min-height: 450px;
 		max-height: 500px;
 		border: 1px solid black;
 	}
@@ -167,9 +186,10 @@ body {
 	/* Sobre Mi Mobile Styles */
 
 	.about {
-		margin: 30px;
+		margin-top: 10px;
+		padding: 10px;
 		text-align: center;
-		font-size: 13px;
+		font-size: 15px;
 	}
 
 }
