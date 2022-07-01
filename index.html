@@ -7,7 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Sports & Fitness - Noticias</title>
 		<link rel="icon" type="image/x-icon" href="imagenes/muscle.png" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 		<link rel="stylesheet" href="styles/styles.css">
 	</head>
 
@@ -18,71 +19,64 @@
 				<img class="fit" src="imagenes/fit.png" alt="logo1">
 			</div>
 
-			<nav class="nav">
-				<ul class="nav_ul">
-					<li class="nav_li"><i class="fas fa-newspaper"></i><a href="index.html">noticias</a></li>
-					<li class="nav_li"><i class="fas fa-utensils"></i><a href="pages/comida_saludable.html">comidasaludable</a></li>
-					<li class="nav_li"><i class="fas fa-brain"></i><a href="pages/salud_mental.html">salud mental</a></li>
-					<li class="nav_li"><i class="fas fa-envelope"></i><a href="pages/contacto.html">contacto</a></li>
-					<li class="nav_li"><i class="fas fa-user-friends"></i><a href="pages/sobre_mi.html">sobre mi</a></li>
-				</ul>
+			<nav class="navbar navbar-expand-lg ">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#"></a>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">noticias</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="pages/comida_saludable.html">comida saludable</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="pages/salud_mental.html">salud mental</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="pages/contacto.html">contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="pages/sobre_mi.html">sobre mi</a>
+							</li>
+						</ul>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit"><i
+									class="fas fa-magnifying-glass"></i></button>
+						</form>
+					</div>
+				</div>
 			</nav>
 		</header>
 
 		<main>
-			<article class="div-cards">
-				<div class="card card_1">
-					<img src="https://phantom-elmundo.unidadeditorial.es/0447efb1536c2429515a0fc484c17590/crop/579x478/2932x2047/resize/473/f/webp/assets/multimedia/imagenes/2022/06/22/16559199526716.jpg" class="card-img-top" alt="natacion">
-					<div class="card-body">
-						<a href="https://www.elmundo.es/deportes/mas-deporte/2022/06/22/62b357a5e4d4d8702a8b45c0.html" target="_blank"><h5 class="card-title">Susto en el Mundial de natación: rescatan a la nadadora estadounidense tras desmayarse en el agua</h5></a>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12 col-xl-6">
+						<div class="card mb-3">
+							<div class="row g-0">
+								<div class="col-md-4">
+									<img src="https://phantom-elmundo.unidadeditorial.es/0447efb1536c2429515a0fc484c17590/crop/579x478/2932x2047/resize/473/f/webp/assets/multimedia/imagenes/2022/06/22/16559199526716.jpg" class="img-fluid rounded-start" alt="natacion">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title"><a class="text-a" href="https://www.elmundo.es/deportes/mas-deporte/2022/06/22/62b357a5e4d4d8702a8b45c0.html">Susto en el Mundial de natación: rescatan a la nadadora estadounidense tras desmayarse en el agua</a></h5>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="card card_2">
-					<img src="https://phantom-elmundo.unidadeditorial.es/3b05cf6b401d9cbc7ec4023c54c45426/resize/473/f/webp/assets/multimedia/imagenes/2022/06/22/16559102997907.jpg" class="card-img-top" alt="tenis">
-					<div class="card-body">
-						<a href="https://www.elmundo.es/deportes/tenis/wimbledon/2022/06/22/62b32ed421efa01e0b8b4573.html" target="_blank"><h5 class="card-title">¿Por qué no se emitieron los dos primeros partidos de la Copa AUF Uruguay?</h5></a>
-					</div>
-				</div>
-
-				<div class="card card_3">
-					<img src="https://imagenes.montevideo.com.uy/imgnoticias/202206/_W933_80/806612.jpg" class="card-img-top" alt="">
-					<div class="card-body">
-						<a href="https://www.futbol.com.uy/Deportes/NBA-Stephen-Curry-fue-elegido-como-MVP-de-las-Finales-por-primera-vez-en-su-carrera-uc824964" target="_blank"><h5 class="card-title">NBA: Stephen Curry fue elegido como MVP de las Finales por primera vez en su carrera</h5></a>
-					</div>
-				</div>
-
-				<div class="card card_4">
-					<img src="https://estaticos-cdn.sport.es/clip/3b296415-25d6-48a8-820b-6a205c819b85_media-libre-aspect-ratio_default_0.jpg" class="card-img-top" alt="">
-					<div class="card-body">
-						<a href="https://www.sport.es/es/noticias/esports/esports-marcan-futuro-eventos-publicidad-13489890" target="_blank"><h5 class="card-title">Los eSports marcan el futuro en los eventos y la publicidad tradicional</h5></a>
-					</div>
-				</div>
-
-
-				<div class="card card_5">
-					<img src="https://imagenes.elpais.com/resizer/hcCv6mxa_i0yR8fJLxr2L4zThJM=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/CSZ4UUDOZV5HPDNQZOWIJWMDZY.jpg" class="card-img-top" alt="">
-					<div class="card-body">
-						<a href="https://www.sport.es/es/noticias/esports/esports-marcan-futuro-eventos-publicidad-13489890" target="_blank"><h5 class="card-title">Draft NBA 2022: cuándo es la selección de jugadores y dónde verla</h5></a>
-					</div>
-				</div>
-
-				<div class="card card_6">
-					<img src="imagenes/noticias/img6.jpg" class="card-img-top" alt="olimpiadas">
-					<div class="card-body">
-						<a href="https://www.abc.es/deportes/futbol/abci-sexo-fuera-matrimonio-factor-riesgo-mundial-catar-2022-202206211714_noticia.html" target="_blank"><h5 class="card-title">El sexo fuera del matrimonio, factor de riesgo en el Mundial de Catar 2022</h5></a>
-					</div>
-				</div>
-
-
-				<div class="card card_7">
-					<img src="imagenes/noticias/16275722938663.jpg" class="card-img-top" alt="mundial">
-					<div class="card-body">
-						<a href="https://www.abc.es/deportes/abci-mas-alla-competicion-amistad-entre-medallas-olimpicas-202206211847_noticia.html" target="_blank"><h5 class="card-title">Más allá de la competición: la amistad entre medallas olímpicas</h5></a>
-					</div>
-				</div>
-			</article>
-
+			</div>
 		</main>
 
 		<footer>
