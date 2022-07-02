@@ -26,9 +26,9 @@ body {
 	}
 
 	.fit {
-		width:76%;
+		width: 76%;
 		position: relative;
-		top:7px;
+		top: 7px;
 	}
 
 	.container-fluid {
@@ -37,7 +37,7 @@ body {
 
 	.navbar {
 		position: relative;
-		top:10px;
+		top: 10px;
 	}
 
 	.navbar-toggler {
@@ -82,24 +82,25 @@ body {
 		bottom: -17px;
 	}
 
-	.mobile-fb{
+	.mobile-fb {
 		color: rgb(29, 29, 247);
 		padding: 10px;
 		font-size: 19px;
 	}
 
-	.mobile-ig{
+	.mobile-ig {
 		color: rgb(226, 77, 169);
 		padding: 10px;
 		font-size: 19px;
 	}
 
-	.mobile-tw{
+	.mobile-tw {
 		color: aqua;
 		text-shadow: 1px 2px black;
 		padding: 10px;
 		font-size: 19px;
 	}
+
 	/* Index Mobile Styles */
 
 	.titulo-pag {
@@ -132,18 +133,21 @@ body {
 		background-color: rgb(4, 0, 226);
 	}
 
-	.card-img-top{
+	.card-img-top {
 		min-height: 204px;
 		object-fit: cover;
 	}
-	
+
 	/* Comida Saludable Mobile Styles */
 
-	.parent {
-		display: grid;
-		grid-template-rows: repeat(12, auto);
-		grid-row-gap: 30px;
-		margin-top: 10px;
+	
+	.receta{
+		background-color: rgb(4, 0, 226);
+		position: relative;
+	}
+
+	.tarj-recetas{
+		min-height: 420px;
 	}
 
 	/* Salud Mental Mobile Styles */
@@ -181,6 +185,9 @@ body {
 		justify-self: center;
 	}
 
+	.input-styles{
+		outline: none;
+	}
 
 
 	/* Sobre Mi Mobile Styles */
