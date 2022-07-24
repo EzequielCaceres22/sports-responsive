@@ -1,0 +1,251 @@
+main {
+  font-family: "Times New Roman", Times, serif; }
+
+footer {
+  font-family: "Times New Roman", Times, serif; }
+
+body {
+  background-color: whitesmoke; }
+
+@media screen and (min-width: 320px) {
+  .flex_banner {
+    display: flex;
+    justify-content: center; }
+    .flex_banner .logo2 {
+      width: 20%; }
+    .flex_banner .fit {
+      width: 70%;
+      position: relative;
+      top: 7px; }
+  .navbar {
+    position: relative;
+    top: 10px; }
+    .navbar .container-fluid {
+      background-color: whitesmoke; }
+    .navbar .navbar-toggler {
+      border: 1px solid rgba(145, 142, 142, 0.89); }
+      .navbar .navbar-toggler:focus {
+        box-shadow: none; }
+    .navbar .form-control {
+      outline: none;
+      border: 1px solid black;
+      margin: 10px; }
+    .navbar .fa-magnifying-glass {
+      color: #707070; }
+    .navbar .nav-link {
+      text-transform: capitalize; }
+    .navbar .navbar-nav a {
+      font-family: "Roboto Condensed", sans-serif;
+      margin-top: 4px;
+      margin-left: 10px;
+      font-style: italic; }
+    .navbar .btn-outline-success {
+      border-color: black;
+      height: 38px;
+      position: relative;
+      top: 9px; }
+  footer {
+    background-color: #21b4c7;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    bottom: -17px; }
+    footer .mobile-fb {
+      color: white;
+      padding: 10px;
+      font-size: 19px; }
+    footer .mobile-ig {
+      color: white;
+      padding: 10px;
+      font-size: 19px; }
+    footer .mobile-tw {
+      color: white;
+      padding: 10px;
+      font-size: 19px; }
+    footer .mobile-fb:hover {
+      color: #1d1df7;
+      padding: 10px;
+      font-size: 19px; }
+    footer .mobile-ig:hover {
+      color: #e24da9;
+      padding: 10px;
+      font-size: 19px; }
+    footer .mobile-tw:hover {
+      color: aqua;
+      text-shadow: 1px 2px black;
+      padding: 10px;
+      font-size: 19px; }
+  /* Index Mobile Styles */
+  .titulo-pag {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bold;
+    color: lightgreen;
+    text-shadow: 2px 1px 1px black; }
+  .card {
+    margin-top: 40px;
+    border-radius: 5px;
+    min-height: 450px;
+    max-height: 500px;
+    border: 1px solid black; }
+    .card .card-img-top {
+      min-height: 204px;
+      object-fit: cover; }
+    .card .card-text {
+      max-height: 70px;
+      overflow: hidden; }
+    .card a {
+      text-decoration: none; }
+    .card .noticia {
+      background-color: #0400e2; }
+  /* Comida Saludable Mobile Styles */
+  .receta {
+    background-color: #0400e2;
+    position: relative; }
+    .receta .tarj-recetas {
+      min-height: 420px; }
+  /* Salud Mental Mobile Styles */
+  .grid-health {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 30px;
+    margin-top: 10px; }
+  /* Contacto Mobile Styles */
+  .grid-form .grid-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px; }
+  .grid-form .grid-form-inputs {
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px; }
+  .grid-form .grid-form-inputs input {
+    margin: 10px; }
+  .grid-form .grid-form-inputs textarea {
+    margin: 10px; }
+  .grid-form .grid-form-socials {
+    display: none; }
+  /* Sobre Mi Mobile Styles */
+  .about {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px; } }
+
+@media screen and (min-width: 1000px) {
+  main {
+    margin-left: 40px;
+    margin-right: 40px; }
+  header {
+    border-radius: 20px;
+    margin-top: 10px; }
+  footer {
+    background-color: #21b4c7;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px; }
+  .logo2 {
+    width: 20%;
+    height: 170px; }
+  .fit {
+    height: 180px; }
+  .fab {
+    color: white; }
+  .tw:hover {
+    color: aqua; }
+  .ig:hover {
+    color: #e24da9; }
+  .fb:hover {
+    color: blue; }
+  .nav-item a {
+    font-size: 20px;
+    margin-right: 50px; }
+    .nav-item a .nav-link:hover {
+      color: #1b7dec; }
+  /* Index Styles */
+  .card {
+    min-height: 500px;
+    width: 100%;
+    transition: 0.4s all;
+    background-color: rgba(255, 235, 235, 0.349); }
+    .card:hover {
+      transform: scale(1.07); }
+  /* Contacto Styles */
+  .grid-form {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    height: 800px; }
+    .grid-form .grid-form-title {
+      grid-area: 1 / 1 / 2 / 3; }
+    .grid-form .grid-form-inputs {
+      grid-area: 2 / 1 / 3 / 2; }
+    .grid-form .grid-form-socials {
+      grid-area: 2 / 2 / 3 / 3; }
+    .grid-form .grid-form-inputs {
+      display: flex;
+      flex-direction: column; }
+    .grid-form .input-styles {
+      padding: 7px;
+      font-size: 16px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #0ecc73; }
+      .grid-form .input-styles:focus {
+        border: 1px solid #15ff00; }
+    .grid-form .boton {
+      width: 30%;
+      margin: auto;
+      align-self: center; }
+    .grid-form .grid-form-socials {
+      margin: auto;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      left: 10px; }
+    .grid-form .socials {
+      text-align: center;
+      margin-top: 90px;
+      font-size: 30px;
+      position: relative;
+      right: 20px; }
+    .grid-form .contact_fb {
+      color: rgba(63, 63, 245, 0.877);
+      font-size: 45px; }
+      .grid-form .contact_fb:hover {
+        color: #2317c7; }
+    .grid-form .contact_ig {
+      color: #e24da9;
+      font-size: 45px; }
+      .grid-form .contact_ig:hover {
+        color: #e72842; }
+    .grid-form .contact_tw {
+      color: aqua;
+      font-size: 45px; }
+      .grid-form .contact_tw:hover {
+        color: #0a88f0; }
+    .grid-form textarea {
+      height: 300px;
+      resize: none; }
+    .grid-form .grid-form-socials {
+      display: block;
+      font-size: 20px; }
+  /* Sobre Nosotros Styles */
+  .about {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px; }
+  /* Comida Saludable Styles */
+  .comida-txt {
+    min-height: 100px; }
+  .comida-img {
+    min-height: 250px; } }
